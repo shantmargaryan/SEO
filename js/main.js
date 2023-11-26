@@ -189,10 +189,13 @@ if (validatorEl) {
         ]);
 }
 
+const careerstSelect = document.querySelector("[data-select='select']")
+if (careerstSelect) {
+    const customSelect1 = new CustomSelect('select', {
+        turn: true
+    });
+}
 
-const customSelect1 = new CustomSelect('select', {
-    turn: true
-});
 
 
 
