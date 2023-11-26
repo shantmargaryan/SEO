@@ -297,7 +297,7 @@ html {
 .hero__bg-box {
     padding-bottom: 120px;
     margin-bottom: 100px;
-    background: url(../img/case-studies-bg.png) center / cover no-repeat;
+    background: url(../../img/case-studies-bg.png) center / cover no-repeat;
 }
 
 
@@ -461,27 +461,27 @@ html {
 }
 
 .hero__img-box_one {
-    background: url(../img/hand.jpg) center/ cover no-repeat;
+    background: url(../../img/hand.jpg) center/ cover no-repeat;
 }
 
 .hero__img-box_two {
-    background: url(../img/tube.jpg) center/ cover no-repeat;
+    background: url(../../img/tube.jpg) center/ cover no-repeat;
 }
 
 .hero__img-box_three {
-    background: url(../img/lamb.jpg) center/ cover no-repeat;
+    background: url(../../img/lamb.jpg) center/ cover no-repeat;
 }
 
 .hero__img-box_four {
-    background: url(../img/pots.jpg) center/ cover no-repeat;
+    background: url(../../img/pots.jpg) center/ cover no-repeat;
 }
 
 .hero__img-box_five {
-    background: url(../img/clothes.jpg) center/ cover no-repeat;
+    background: url(../../img/clothes.jpg) center/ cover no-repeat;
 }
 
 .hero__img-box_six {
-    background: url(../img/car.jpg) center/ cover no-repeat;
+    background: url(../../img/car.jpg) center/ cover no-repeat;
 }
 
 .hero__img {
