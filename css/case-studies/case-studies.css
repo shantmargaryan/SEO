@@ -42,8 +42,8 @@ html {
 
 @font-face {
     font-family: Lato;
-    src: url(../fonts/Lato-Regular.woff),
-        url(../fonts/Lato-Regular.woff2);
+    src: url(../../fonts/Lato-Regular.woff),
+        url(../../fonts/Lato-Regular.woff2);
     font-display: swap;
     font-weight: 400;
     font-style: normal;
@@ -51,8 +51,8 @@ html {
 
 @font-face {
     font-family: Lato;
-    src: url(../fonts/Lato-Bold.woff),
-        url(../fonts/Lato-Bold.woff2);
+    src: url(../../fonts/Lato-Bold.woff),
+        url(../../fonts/Lato-Bold.woff2);
     font-display: swap;
     font-weight: 700;
     font-style: normal;
@@ -60,8 +60,8 @@ html {
 
 @font-face {
     font-family: Lato;
-    src: url(../fonts/Lato-Black.woff2),
-        url(../fonts/Lato-Black.woff2);
+    src: url(../../fonts/Lato-Black.woff2),
+        url(../../fonts/Lato-Black.woff2);
     font-display: swap;
     font-weight: 900;
     font-style: normal;
