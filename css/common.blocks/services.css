@@ -69,15 +69,13 @@
 
 .services__btn_transparent {
     border-radius: 4px;
-    outline: 1px solid ;
+    outline: 1px solid #7772F1;
     background-color: transparent;
     color: #7772F1;
 }
 
+
 @media (pointer:fine) and (hover: hover) {
-    .services__btn_transparent:hover {
-        color: #fff;
-    }
 
     .services__link:hover {
         border-radius: 4px;
