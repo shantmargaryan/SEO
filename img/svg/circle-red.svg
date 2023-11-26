@@ -1,0 +1,11 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="circle" clip-path="url(#clip0_5939_1047)">
+<circle id="ellipse" opacity="0.3" cx="20" cy="20" r="18" stroke="#FF4242" stroke-width="4"/>
+<path id="ellipse_2" d="M20 36C28.8366 36 36 28.8366 36 20C36 11.1634 28.8366 4 20 4V0C31.0457 0 40 8.9543 40 20C40 31.0457 31.0457 40 20 40C8.9543 40 0 31.0457 0 20C0 18.2735 0.218765 16.5981 0.630087 15L4.5 16.0158C4.17357 17.2896 4 18.6245 4 20C4 28.8366 11.1634 36 20 36Z" fill="#FF4242"/>
+</g>
+<defs>
+<clipPath id="clip0_5939_1047">
+<rect width="40" height="40" fill="white"/>
+</clipPath>
+</defs>
+</svg>

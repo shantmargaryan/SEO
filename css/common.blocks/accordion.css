@@ -1,0 +1,4 @@
+.accordion__btn_active .questions__item-decor::before {
+    transform: rotate(90deg);
+}
+

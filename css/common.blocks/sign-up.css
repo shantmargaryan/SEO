@@ -1,0 +1,119 @@
+.main__sign-up {
+    margin-bottom: 180px;
+}
+
+.sign-up {
+    min-height: 560px;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    background: url(../../img/sign-up-background.jpg) center/ cover no-repeat;
+}
+
+.sign-up__title {
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.sign-up__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+
+.sign-up__img {
+    max-width: 397px;
+    max-height: 396px;
+}
+
+.sign-up__form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.sign-up__input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.sign-up__label {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.sign-up__input {
+    width: 100%;
+    padding: 15px 0;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.sign-up__input:focus {
+    background: #FFF;
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(119, 114, 241, 0.04), 0px 30px 24px -10px rgba(119, 114, 241, 0.05), 0px 80px 80px -20px rgba(119, 114, 241, 0.08);
+}
+
+.sign-up__btn-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.sign-up__input-chackbox {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.sign-up__label-box {
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+}
+
+.sign-up__label-chackbox {
+    display: block;
+    max-width: 287px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+
+
+.sign-up__btn {
+    text-wrap: nowrap;
+}
+
+
+@media(min-width:992px) {
+    .sign-up__input {
+        padding-right: 195px;
+    }
+
+    .sign-up__form-box {
+        flex-direction: row;
+    }
+
+    .sign-up__container {
+        flex-direction: row;
+    }
+
+    .sign-up__btn-box {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

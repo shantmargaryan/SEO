@@ -1,0 +1,18 @@
+.socials {
+    display: flex;
+    gap: 20px;
+}
+
+.socials__icon {
+    width: 24px;
+    height: 24px;
+    fill: #FFFFFF;
+    opacity: 0.5;
+    transition: fill 0.3s ease-out 0s;
+}
+
+@media (pointer:fine) and (hover: hover) {
+    .socials__icon:hover {
+        fill: #808080;
+    }
+}
