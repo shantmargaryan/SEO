@@ -827,15 +827,13 @@ html {
     transition: fill 0.3s ease 0s;
 }
 
-@media (pointer:fine) and (hover: hover) {
-    .team__link:hover .team__icon {
-        fill: #fff;
-    }
+.team__link:hover .team__icon {
+    fill: #fff;
+}
 
-    .team__item:hover .team__icon-box {
-        height: 100%;
-        background: linear-gradient(180deg, rgba(30, 33, 44, 0.00) 43.9%, rgba(30, 33, 44, 0.03) 55.21%, rgba(30, 33, 44, 0.33) 68.73%, rgba(30, 33, 44, 0.56) 76.17%, rgba(30, 33, 44, 0.77) 83.75%, rgba(30, 33, 44, 0.92) 91.49%, #1E212C 100%);
-    }
+.team__item:hover .team__icon-box {
+    height: 100%;
+    background: linear-gradient(180deg, rgba(30, 33, 44, 0.00) 43.9%, rgba(30, 33, 44, 0.03) 55.21%, rgba(30, 33, 44, 0.33) 68.73%, rgba(30, 33, 44, 0.56) 76.17%, rgba(30, 33, 44, 0.77) 83.75%, rgba(30, 33, 44, 0.92) 91.49%, #1E212C 100%);
 }
 
 .team__img {
