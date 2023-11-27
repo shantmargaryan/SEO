@@ -29,15 +29,27 @@
 
 .news__list {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 30px;
+}
+
+.news__item {
+    flex-grow: 1;
 }
 
 
 .news__img {
-    max-width: 390px;
-    max-height: 300px;
     margin-bottom: 15px;
+}
+
+@media(min-width:768px) {
+    .news__list {
+        flex-direction: row;
+    }
+
+    .news__img {
+        max-width: 390px;
+    }
 }
 
 .news__info {
