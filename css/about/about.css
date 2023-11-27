@@ -464,7 +464,7 @@ html {
     right: 0;
     left: 0;
     opacity: 0.4;
-    background: url(/img/content.jpg) center / cover no-repeat;
+    background: url(../../img/content.jpg) center / cover no-repeat;
 }
 
 
