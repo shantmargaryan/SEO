@@ -503,7 +503,7 @@ html {
     position: absolute;
     left: -20px;
     top: 5px;
-    background: url(.././img/svg/mark.svg) center / cover no-repeat;
+    background: url(../../img/svg/mark.svg) center / cover no-repeat;
 }
 
 .aside__buttons {
