@@ -302,7 +302,7 @@ html {
 .hero__bg-box {
     padding-bottom: 120px;
     margin-bottom: 100px;
-    background: url(.././img/company-bg.png) center / cover no-repeat;
+    background: url(../../img/company-bg.png) center / cover no-repeat;
 }
 
 
