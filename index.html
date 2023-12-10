@@ -364,27 +364,28 @@
                <h2 class="sign-up__title title">
                   Get a Free SEO Analysis!
                </h2>
-               <form class="sign-up__form" action="#" name="form" method="post" enctype="multipart/form-data">
+               <form class="sign-up__form" action="#" name="form" method="post" enctype="multipart/form-data"
+                  data-form="sign-up-form">
                   <div class="sign-up__form-box">
                      <div class="sign-up__input-box">
                         <label class="sign-up__label" for="name">
                            Name
                         </label>
-                        <input class="sign-up__input" id="name" name="name" type="text" placeholder="Your name">
+                        <input class="sign-up__input" required id="name" name="name" type="text" placeholder="Your name" data-form-input>
                      </div>
                      <div class="sign-up__input-box">
                         <label class="sign-up__label" for="Email">
                            Email
                         </label>
-                        <input class="sign-up__input" id="Email" name="Email" type="email"
-                           placeholder="Your working email">
+                        <input class="sign-up__input" required id="Email" name="Email" type="email"
+                           placeholder="Your working email" data-form-input>
                      </div>
                   </div>
                   <div class="sign-up__input-box">
                      <label class="sign-up__label" for="url">
                         Your website URL
                      </label>
-                     <input class="sign-up__input" type="url" id="url" name="url" placeholder="http://yoursite.com">
+                     <input class="sign-up__input" required type="url" id="url" name="url" placeholder="http://yoursite.com" data-form-input>
                   </div>
                   <div class="sign-up__btn-box">
                      <div class="sign-up__label-box">
@@ -393,7 +394,7 @@
                            I agree to receive communications from Createx SEO Agency
                         </label>
                      </div>
-                     <button class="sign-up__btn btn" type="submit">
+                     <button class="sign-up__btn btn" type="submit" data-form-btn>
                         Get a free analysis
                      </button>
                   </div>
@@ -1605,6 +1606,7 @@
       </div>
    </footer>
 
+   <!-- <script src="js/formValidate.js"></script> -->
    <script src="js/accordion.js"></script>
    <script src="js/slide.js"></script>
    <script src="js/main.js"></script>
